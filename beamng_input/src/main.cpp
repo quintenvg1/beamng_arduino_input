@@ -37,7 +37,6 @@ void loop() {
   handbrake = digitalRead(handbrakepin);
   starter = digitalRead(starterpin);
   //write outputs
-  /*chatgpt says to use this instead
   Serial.print(blinkerl);
   Serial.print(',');
   Serial.print(blinkerr);
@@ -45,7 +44,5 @@ void loop() {
   Serial.print(handbrake);
   Serial.print(',');
   Serial.println(starter);
-  */
-  Serial.println(blinkerl+','+blinkerr+','+handbrake+','+starter);
 }
 
